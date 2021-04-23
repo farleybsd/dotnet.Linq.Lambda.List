@@ -1,4 +1,5 @@
-﻿using System;
+﻿using dotnet.Linq.Lambda.List.Extensoes;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,6 +19,9 @@ namespace dotnet.Linq.Lambda.List
             idades.Add(25);
             idades.Add(38);
             idades.Add(61);
+
+            string nomes = "Farley";
+            nomes.Teste<string>();
             
             //ListExtensoesOld.AdicionarVarios(idades, 1, 5687, 1987, 1567, 987);
             
