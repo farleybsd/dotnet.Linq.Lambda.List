@@ -21,6 +21,7 @@ namespace dotnet.Linq.Lambda.List
 
 
             ListExtensoes.AdicionarVarios(idades, 1, 5687, 1987, 1567, 987);
+            idades.AdicionarVarios(5,448,7898,564);
 
             for (int i = 0; i < idades.Count; i++)
             {
