@@ -15,27 +15,25 @@ namespace ByteBank.SistemaAgencia
     {
         static void Main(string[] args)
         {
-
+            /*
             var conta = new ContaCorrente(344,5645645);
             var gerenciador = new GerenciadorBonificacao();
             var gerenciadores = new List<GerenciadorBonificacao>();
+            */
 
-            List<int> idades = new List<int>();
-
-            idades.Add(1);
-            idades.Add(5);
-            idades.Add(14);
-            idades.Add(25);
-            idades.Add(38);
-            idades.Add(61);
-
-            idades.AdicionarVarios(45, 89, 12);
-            // ListExtensoes.AdicionarVarios(idades, 45, 89, 12);
-
-
-            for (int i = 0; i < idades.Count; i++)
+            var contas = new List<ContaCorrente>()
             {
-                Console.WriteLine(idades[i]);
+                new ContaCorrente(341,57480),
+                new ContaCorrente(342,45678),
+                new ContaCorrente(340,48950),
+                new ContaCorrente(290,18950)
+            };
+
+            contas.Sort();
+
+            foreach (var item in contas)
+            {
+                Console.WriteLine($"Conta número {item.Numero},Ag.{item.Agencia}");
             }
 
             Console.ReadLine();
@@ -150,6 +148,43 @@ namespace ByteBank.SistemaAgencia
 
             int media = acumulador / idades.Length;
             Console.WriteLine($"Média de idades = {media}");
+        }
+
+        static void TestaSort()
+        {
+            var nomes = new List<string>()
+            {
+                "Guilherme",
+                "Luana",
+                "Farley",
+                "Ana"
+            };
+
+            nomes.Sort();
+
+            foreach (var item in nomes)
+            {
+                Console.WriteLine(item);
+            }
+
+            var idades = new List<int>();
+
+            idades.Add(1);
+            idades.Add(5);
+            idades.Add(14);
+            idades.Add(25);
+            idades.Add(38);
+            idades.Add(61);
+
+            idades.AdicionarVarios(45, 89, 12);
+            // ListExtensoes.AdicionarVarios(idades, 45, 89, 12);
+
+            idades.Sort();
+
+            for (int i = 0; i < idades.Count; i++)
+            {
+                Console.WriteLine(idades[i]);
+            }
         }
 
     }
