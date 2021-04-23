@@ -2,7 +2,7 @@
 
 namespace dotnet.Linq.Lambda.List
 {
-    public static class ListExtensoes
+    public static class ListExtensoesOld
     {
         public static void AdicionarVarios(this List<int> listaDeInteiros,params int[] itens)
         // this permite ser chamado por referencia na classe idades pode passar ela mesmo como o parametro
