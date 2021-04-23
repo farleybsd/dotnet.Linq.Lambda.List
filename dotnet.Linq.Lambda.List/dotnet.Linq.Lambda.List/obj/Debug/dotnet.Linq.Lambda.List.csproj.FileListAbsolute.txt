@@ -1,0 +1,7 @@
+C:\MyGit\dotnet.Linq.Lambda.List\dotnet.Linq.Lambda.List\dotnet.Linq.Lambda.List\bin\Debug\dotnet.Linq.Lambda.List.exe.config
+C:\MyGit\dotnet.Linq.Lambda.List\dotnet.Linq.Lambda.List\dotnet.Linq.Lambda.List\bin\Debug\dotnet.Linq.Lambda.List.exe
+C:\MyGit\dotnet.Linq.Lambda.List\dotnet.Linq.Lambda.List\dotnet.Linq.Lambda.List\bin\Debug\dotnet.Linq.Lambda.List.pdb
+C:\MyGit\dotnet.Linq.Lambda.List\dotnet.Linq.Lambda.List\dotnet.Linq.Lambda.List\obj\Debug\dotnet.Linq.Lambda.List.csprojAssemblyReference.cache
+C:\MyGit\dotnet.Linq.Lambda.List\dotnet.Linq.Lambda.List\dotnet.Linq.Lambda.List\obj\Debug\dotnet.Linq.Lambda.List.csproj.CoreCompileInputs.cache
+C:\MyGit\dotnet.Linq.Lambda.List\dotnet.Linq.Lambda.List\dotnet.Linq.Lambda.List\obj\Debug\dotnet.Linq.Lambda.List.exe
+C:\MyGit\dotnet.Linq.Lambda.List\dotnet.Linq.Lambda.List\dotnet.Linq.Lambda.List\obj\Debug\dotnet.Linq.Lambda.List.pdb

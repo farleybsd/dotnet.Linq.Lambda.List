@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet.Linq.Lambda.List", "dotnet.Linq.Lambda.List\dotnet.Linq.Lambda.List.csproj", "{EFFE3A0F-83FD-447E-AED0-4AB7B0DFB923}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFFE3A0F-83FD-447E-AED0-4AB7B0DFB923}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFFE3A0F-83FD-447E-AED0-4AB7B0DFB923}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFFE3A0F-83FD-447E-AED0-4AB7B0DFB923}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFFE3A0F-83FD-447E-AED0-4AB7B0DFB923}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B9A045C-EB02-46A3-AE41-EC39393B1774}
+	EndGlobalSection
+EndGlobal
