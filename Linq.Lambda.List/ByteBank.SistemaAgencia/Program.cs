@@ -64,12 +64,18 @@ namespace ByteBank.SistemaAgencia
 
             IEnumerable<ContaCorrente> contasNaoNulas = contas.Where(conta => conta != null);
 
+            var contasOrdenadas = contas
+                                        .Where(conta => conta != null)
+                                        .OrderBy(conta => conta != null);
+
+            /*
             IOrderedEnumerable<ContaCorrente> contasOrdernadas = contasNaoNulas.
-                                                                                OrderBy(conta => conta.Numero);
+                                                                                OrderBy<ContaCorrente,int>(conta => conta.Numero);
+            */
 
 
 
-            foreach (var item in contasOrdernadas)
+            foreach (var item in contasOrdenadas)
             {
                 //if(item == null){Console.WriteLine("Conta Nula");}
                 Console.WriteLine($"Conta número {item.Numero},Ag.{item.Agencia}");
