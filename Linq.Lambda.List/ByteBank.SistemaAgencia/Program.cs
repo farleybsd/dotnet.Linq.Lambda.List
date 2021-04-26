@@ -24,23 +24,38 @@ namespace ByteBank.SistemaAgencia
 
             var contas = new List<ContaCorrente>()
             {
-                new ContaCorrente(341,1),
-                new ContaCorrente(342,999),
-                new ContaCorrente(340,4),
-                new ContaCorrente(340,456),
+                 new ContaCorrente(341,1),
+                 new ContaCorrente(342,999),
+                 null,
+                 new ContaCorrente(340,4),
+                 new ContaCorrente(340,456),
                  new ContaCorrente(340,10),
-                new ContaCorrente(290,123)
+                 null,
+                 null,
+                 new ContaCorrente(290,123)
             };
 
             //contas.Sort();
             //contas.Sort(new ComparadorContaCorrentePorAgencia());
 
-           IOrderedEnumerable<ContaCorrente> contasOrdernadas = contas.
-                                                                    OrderBy(conta => conta.Numero);
+            IOrderedEnumerable<ContaCorrente> contasOrdernadas = contas.
+                                                                     OrderBy(conta =>
+                                                                     {
+                                                                         if(conta == null)
+                                                                         {
+                                                                             return int.MaxValue;
+                                                                         }
+                                                                         return conta.Numero;
+ 
+                                                                     });
+
+            
 
             foreach (var item in contasOrdernadas)
             {
-                Console.WriteLine($"Conta número {item.Numero},Ag.{item.Agencia}");
+                //if(item == null){Console.WriteLine("Conta Nula");}
+                if(item !=null) { Console.WriteLine($"Conta número {item.Numero},Ag.{item.Agencia}"); }
+                
             }
 
             Console.ReadLine();
